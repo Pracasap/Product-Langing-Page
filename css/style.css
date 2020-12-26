@@ -38,12 +38,12 @@ h1 {
 #navigation {
     justify-items: left;
 }
-#nav-link {
+.nav-link {
     margin-right: 35px;
     color: rgb(22, 22, 22);
     text-decoration: none;
 }
-#nav-link:hover {
+.nav-link:hover {
     border-bottom: 3px solid rgb(41, 41, 41);
     color: rgb(22, 22, 22);
 }
@@ -84,9 +84,17 @@ button {
     font-size: 18px;
     font-weight: 500;
 }
-#get-started {
+#submit {
     height: 30px;
     width: 180px;
+    background-color: rgb(245, 190, 8);
+    border: 0px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#submit:hover {
+    transform: scale(1.08);
 }
 #features {
     background-color: #dedbd4;
@@ -126,7 +134,7 @@ button {
     text-align: justify;
     line-height: 1.2;
 }
-#video{
+#video-sec {
     background-color: rgba(204, 202, 202, 0.871);
     display: grid;
     align-items: stretch;
@@ -169,7 +177,7 @@ iframe {
     font-size: 25px;
     font-weight: 700;
 }
-#description {8
+#description {
     padding-bottom: 20px;
     line-height: 1.5;
     font-size: 17px;
@@ -181,9 +189,6 @@ iframe {
     margin-bottom: 30px;
 }
 #sel-btn:hover {
-    height: 35px;
-    width: 100px;
-    margin-bottom: 30px;
     transform: scale(1.08);
 }
 footer {
@@ -244,7 +249,7 @@ footer {
         margin-top: 20px;
         margin-left: -50px;
     }
-    #nav-link {
+    .nav-link {
         margin-top: 15px;
         color: rgb(22, 22, 22);
         text-decoration: none;
